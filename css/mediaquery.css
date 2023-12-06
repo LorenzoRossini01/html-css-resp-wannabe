@@ -1,7 +1,7 @@
 /* 1140 desktop */
 @media screen and (max-width: 1140px) {
   .steps {
-    min-width: 1140px;
+    width: 100%;
   }
 }
 
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 
   .steps {
@@ -20,8 +20,12 @@
 /* 480 smartphone */
 
 @media screen and (max-width: 480px) {
+  .site-header {
+    width: 100%;
+  }
+
   .container {
-    max-width: 480px;
+    width: 100%;
   }
 
   .row {
@@ -30,8 +34,12 @@
     gap: 3rem;
   }
 
+  .lessons {
+    min-width: 100%;
+  }
+
   .col {
-    min-width: 60%;
+    min-width: 100%;
   }
 
   .card,
@@ -41,13 +49,13 @@
 
   .steps {
     margin-bottom: 0;
-    min-width: 480px;
+    min-width: 100%;
   }
 
   .why-us {
     background-color: #222222;
     padding: 3rem 0;
-    min-width: 480px;
+    min-width: 100%;
     margin-bottom: 0;
   }
 
