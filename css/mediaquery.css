@@ -1,25 +1,25 @@
+/* 1140 desktop */
+@media screen and (max-width: 1140px) {
+  .steps {
+    min-width: 1140px;
+  }
+}
+
 /* 768 tablet */
 
 @media screen and (max-width: 768px) {
-  .site-header {
-    width: 100%;
-  }
-
   .container {
-    max-width: 768px;
+    max-width: 100%;
   }
 
   .steps {
-    min-width: 768px;
+    min-width: 100%;
   }
 }
 
 /* 480 smartphone */
 
 @media screen and (max-width: 480px) {
-  .site-header {
-    width: 100%;
-  }
   .container {
     max-width: 480px;
   }
