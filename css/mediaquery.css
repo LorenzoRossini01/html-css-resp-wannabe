@@ -1,6 +1,11 @@
-/* 768 tablet */
 .container {
   width: 100%;
+}
+/* 768 tablet */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }
 
 /* 480 smartphone */
